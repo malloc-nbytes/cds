@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stddef.h>
 
-typedef struct {
+typedef struct __CDS_List_Node {
         uint8_t *data;
         struct __CDS_List_Node *p, *n;
 } __CDS_List_Node;

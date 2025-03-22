@@ -2,4 +2,4 @@
 
 set -xe
 
-cc -o main *.c
+cc -Iinclude/ -o main *.c
